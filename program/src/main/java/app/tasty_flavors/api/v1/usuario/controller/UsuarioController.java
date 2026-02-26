@@ -17,7 +17,7 @@ public class UsuarioController {
 
     private final UsuarioFacade usuarioFacade;
 
-    @GetMapping("/login")
+    @PostMapping("/login")
     public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest request) {
         return ResponseEntity.ok(
                 usuarioFacade.login(request)
