@@ -3,6 +3,17 @@ spring:
     name: backend-restaurante
   profiles:
     active: dev
+
 jwt:
   secret: ba76e755f23bb406c6e33cb18916be32
   expiration: 3600000
+
+application:
+  feign:
+    viacep-name: viaCepClient
+    viacep-url: https://viacep.com.br/ws
+
+server:
+  port: 3000
+  servlet:
+    context-path: /tasty-api-service

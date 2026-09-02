@@ -1,0 +1,6 @@
+rootProject.name = 'backend-restaurante'
+
+include 'api'
+include 'impl'
+include 'integration'
+include 'common'
