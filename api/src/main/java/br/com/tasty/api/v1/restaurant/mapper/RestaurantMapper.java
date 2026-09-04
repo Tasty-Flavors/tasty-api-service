@@ -9,6 +9,8 @@ public class RestaurantMapper {
                 .nomeEstabelecimento(restaurantModel.getNomeEstabelecimento())
                 .email(restaurantModel.getEmail())
                 .role(restaurantModel.getRole())
+                .descricao(restaurantModel.getDescricao())
+                .imagem(restaurantModel.getImagem())
                 .build();
     }
 }

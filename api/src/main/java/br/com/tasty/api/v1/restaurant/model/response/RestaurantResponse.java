@@ -17,5 +17,6 @@ public class RestaurantResponse {
     private String role;
     private Boolean ativo;
     private String imagem;
+    private String descricao;
     private AddressResponse endereco;
 }

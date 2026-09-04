@@ -18,5 +18,6 @@ public class RestauranteModelImpl {
     private String role;
     private Boolean ativo;
     private String imagem;
+    private String descricao;
     private AddressModelImpl endereco;
 }
