@@ -21,7 +21,7 @@ target/
 src/main/resources/application-*.yaml
 .gradle
 .gradle/
-
+gradle
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
