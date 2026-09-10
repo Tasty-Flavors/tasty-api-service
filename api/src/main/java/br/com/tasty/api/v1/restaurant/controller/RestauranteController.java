@@ -14,7 +14,7 @@ public class RestauranteController {
 
     @GetMapping("/dashboard")
     @ResponseStatus(HttpStatus.OK)
-    public RestaurantResponse dashboard(@RequestParam("codigoUsuario") Integer codigoUsuario) {
+    public RestaurantResponse dashboard(@RequestParam("sub") Integer codigoUsuario) {
         return restauranteFacade.dashboard(codigoUsuario);
     }
 
