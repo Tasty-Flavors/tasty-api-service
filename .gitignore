@@ -22,6 +22,7 @@ src/main/resources/application-*.yaml
 .gradle
 .gradle/
 gradle
+.env
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
