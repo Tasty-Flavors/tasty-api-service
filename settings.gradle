@@ -1,4 +1,4 @@
-rootProject.name = 'backend-restaurante'
+rootProject.name = 'tasty-api-service'
 
 include 'api'
 include 'impl'

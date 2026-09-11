@@ -14,7 +14,6 @@ application:
     viacep-url: https://viacep.com.br/ws
 
 server:
-  address: 0.0.0.0
   port: 3000
   servlet:
     context-path: /tasty-api-service
