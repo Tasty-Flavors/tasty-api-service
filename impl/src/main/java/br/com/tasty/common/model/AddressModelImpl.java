@@ -8,11 +8,11 @@ import lombok.Data;
 @Builder
 @AllArgsConstructor
 public class AddressModelImpl {
-    private String street;
-    private String number;
-    private String neighborhood;
-    private String city;
-    private String state;
-    private String zipCode;
-    private String complement;
+    private String cep;
+    private String rua;
+    private Integer numero;
+    private String complemento;
+    private String bairro;
+    private String cidade;
+    private String estado;
 }

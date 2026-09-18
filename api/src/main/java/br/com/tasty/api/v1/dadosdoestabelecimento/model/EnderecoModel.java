@@ -1,13 +1,9 @@
-package br.com.tasty.api.v1.restaurant.model.response;
+package br.com.tasty.api.v1.dadosdoestabelecimento.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
 
-@Data
 @Builder
-@AllArgsConstructor
-public class AddressResponse {
+public class EnderecoModel {
     private String cep;
     private String rua;
     private Integer numero;
